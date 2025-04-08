@@ -8,10 +8,13 @@ namespace Codice_Fiscale_Console__Testing_
 {
     public class Comune
     {
-        public int id {  get; set; }
+        public int id { get; set; }
         public string comune { get; set; }
         public string codiceCatastale { get; set; }
-        
 
+        public override string ToString()
+        {
+            return $"{id} {comune} {codiceCatastale}";
+        }
     }
 }

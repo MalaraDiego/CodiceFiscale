@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {}
+    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\abc\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {
+    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\abc\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
+        "projectUniqueName": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\abc\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
         "projectName": "Codice Fiscale Console (Testing)",
-        "projectPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
-        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\obj\\",
+        "projectPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\abc\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
+        "packagesPath": "C:\\Users\\GABRIELETRAVELLINI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\abc\\Codice Fiscale Console (Testing)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GABRIELETRAVELLINI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,17 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -66,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
