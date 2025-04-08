@@ -33,9 +33,9 @@ namespace Codice_Fiscale_Console__Testing_
             }
         }
 
-        public static async Task<Comune> getComune()
+        public static async Task<Comune> getComune(int i)
         {
-            string api = "http://codicefiscale.infy.uk/getCodiceCatastale.php";
+            string api = $"http://codicefiscale.infy.uk/getCodiceCatastale.php?id={i}";
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
@@ -79,9 +79,9 @@ namespace Codice_Fiscale_Console__Testing_
             }
         }
         
-        public static async Task<Nazione> getNazione()
+        public static async Task<Nazione> getNazione(int i)
         {
-            string api = "http://codicefiscale.infy.uk/getCodiceNazione.php";
+            string api = $"http://codicefiscale.infy.uk/getCodiceNazione.php?id={i}";
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);

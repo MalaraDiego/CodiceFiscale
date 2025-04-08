@@ -13,3 +13,18 @@ C:\Users\GABRIELETRAVELLINI\Desktop\abc\Codice Fiscale Console (Testing)\obj\Deb
 C:\Users\GABRIELETRAVELLINI\Desktop\abc\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).pdb
 C:\Users\GABRIELETRAVELLINI\Desktop\abc\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).genruntimeconfig.cache
 C:\Users\GABRIELETRAVELLINI\Desktop\abc\Codice Fiscale Console (Testing)\obj\Debug\net8.0\ref\Codice Fiscale Console (Testing).dll
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).exe
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).deps.json
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).runtimeconfig.json
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).dll
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).pdb
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).AssemblyInfoInputs.cache
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).AssemblyInfo.cs
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).csproj.CoreCompileInputs.cache
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).sourcelink.json
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).dll
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\refint\Codice Fiscale Console (Testing).dll
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).pdb
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).genruntimeconfig.cache
+C:\Users\Utente\OneDrive\Desktop\Codice Fiscals\Codice Fiscale Console (Testing)\obj\Debug\net8.0\ref\Codice Fiscale Console (Testing).dll
