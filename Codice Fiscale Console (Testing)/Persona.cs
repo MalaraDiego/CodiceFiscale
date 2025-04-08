@@ -22,19 +22,23 @@ namespace Codice_Fiscale_Console__Testing_
             get { return _dataNascita; } set 
             {
                 //formato AAAA-MM-GG
-                if ( (int)(value[0]+value[1]+value[2]+value[3]) > DateTime.Now.Year || (int)(value[0] + value[1] + value[2] + value[3]) < 1900)
+                string anno = new string(new char[] { value[0], value[1], value[2], value[3] });
+                string mese = new string(new char[] { value[5], value[6] });
+                string giorno = new string(new char[] { value[8], value[9] });
+                string trattini = new string(new char[] { value[4], value[7] });
+                if (int.Parse(anno) > DateTime.Now.Year || int.Parse(anno) < 1900)
                 {
                     throw new Exception("Anno non valido");
                 }
-                else if ( (int)(value[5] + value[6]) > 12 || (int)(value[5] + value[6]) < 0)
+                else if ( int.Parse(mese) > 12 || int.Parse(mese) < 0)
                 {
                     throw new Exception("Mese non valido");
                 }
-                else if ((int)(value[8] + value[9]) > DateTime.DaysInMonth((int)(value[0] + value[1] + value[2] + value[3]), (int)(value[5] + value[6])) || (int)(value[8] + value[9]) < 0)
+                else if (int.Parse(giorno) > DateTime.DaysInMonth(int.Parse(anno), int.Parse(mese)) || int.Parse(giorno) < 0)
                 {
                     throw new Exception("Giorno non valido");
                 }
-                else if (!value[4].Equals("-") || !value[7].Equals("-"))
+                else if (trattini != "--")
                 {
                     throw new Exception("Formato data non valido prova a inserirla in questo formato: (AAAA-MM-GG)");
                 }
