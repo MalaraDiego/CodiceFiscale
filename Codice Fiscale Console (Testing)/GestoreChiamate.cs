@@ -7,17 +7,21 @@ using System.Threading.Tasks;
 
 namespace Codice_Fiscale_Console__Testing_
 {
+
     public static class GestoreChiamate
-    {
+    {   //dati da aggiornare ogni volta che non funzionano le chiamate api
+        //scadono dopo un giorno
+        static readonly string cookie = "__test = df4a37d235b98806b6a66abb4f5cf89c";
+        static readonly string user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0";
         public static async Task<List<Comune>> getComuni()
         {
             string api = "http://codicefiscale.infy.uk/getCodiciCatastali.php";
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
-            
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
+
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -39,8 +43,8 @@ namespace Codice_Fiscale_Console__Testing_
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -62,8 +66,8 @@ namespace Codice_Fiscale_Console__Testing_
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -78,15 +82,15 @@ namespace Codice_Fiscale_Console__Testing_
                 throw new Exception(ex.Message);
             }
         }
-        
+
         public static async Task<Nazione> getNazione(int i)
         {
             string api = $"http://codicefiscale.infy.uk/getCodiceNazione.php?id={i}";
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -108,8 +112,8 @@ namespace Codice_Fiscale_Console__Testing_
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -131,8 +135,8 @@ namespace Codice_Fiscale_Console__Testing_
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);
@@ -154,8 +158,8 @@ namespace Codice_Fiscale_Console__Testing_
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator; //accetta tutti i tipi di server anche quelli non verificati (non sicuri)
             using HttpClient client = new HttpClient(handler);
-            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0");
-            client.DefaultRequestHeaders.Add("Cookie", "__test=c74fde7f4b105bdfeced94b1d7bddba5");
+            client.DefaultRequestHeaders.Add("User-Agent", user_agent);
+            client.DefaultRequestHeaders.Add("Cookie", cookie);
             try
             {
                 HttpResponseMessage response = await client.GetAsync(api);

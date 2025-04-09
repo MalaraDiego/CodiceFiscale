@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\nazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
@@ -51,34 +51,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T19:01:00.141Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Storico.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Storico.cs",
-              "RelativeDocumentMoniker": "Storico.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Storico.cs",
-              "RelativeToolTip": "Storico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:44:43.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Persona.cs",
-              "RelativeDocumentMoniker": "Persona.cs",
-              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Persona.cs",
-              "RelativeToolTip": "Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:29:28.095Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -110,6 +83,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Storico.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Storico.cs",
+              "RelativeDocumentMoniker": "Storico.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Storico.cs",
+              "RelativeToolTip": "Storico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:44:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:29:28.095Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Utente.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Utente.cs",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "Utente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:07:49.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:07:49.792Z"
             },
             {
               "$type": "Document",
@@ -131,31 +127,30 @@
               "RelativeToolTip": "Nazione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:59:13.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:59:13.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GestoreChiamate.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\GestoreChiamate.cs",
               "RelativeDocumentMoniker": "GestoreChiamate.cs",
               "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\GestoreChiamate.cs",
               "RelativeToolTip": "GestoreChiamate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswJMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T17:33:37.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T17:28:10.396Z",
               "EditorCaption": ""
