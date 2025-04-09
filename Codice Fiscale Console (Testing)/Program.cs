@@ -2,5 +2,12 @@
 
 //List<Comune> c = await GestoreChiamate.getComuni();
 //Console.WriteLine(c[1234]);
-Persona p = new Persona() { dataNascita = "2024-2-29"};
-Console.WriteLine(p.dataNascita);
+
+try
+{
+    Persona p = new Persona() { dataNascita = "2024-12-29",sesso = "M", } ;
+    Console.WriteLine(p.dataNascita);
+}catch(Exception e)
+{
+    Console.WriteLine(e.Message);
+}
