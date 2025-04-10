@@ -43,3 +43,18 @@ C:\Users\GABRIELETRAVELLINI\Desktop\Nuova cartella\Codice Fiscale Console (Testi
 C:\Users\GABRIELETRAVELLINI\Desktop\Nuova cartella\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).pdb
 C:\Users\GABRIELETRAVELLINI\Desktop\Nuova cartella\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).genruntimeconfig.cache
 C:\Users\GABRIELETRAVELLINI\Desktop\Nuova cartella\Codice Fiscale Console (Testing)\obj\Debug\net8.0\ref\Codice Fiscale Console (Testing).dll
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).exe
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).deps.json
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).runtimeconfig.json
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).dll
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\bin\Debug\net8.0\Codice Fiscale Console (Testing).pdb
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).AssemblyInfoInputs.cache
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).AssemblyInfo.cs
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).csproj.CoreCompileInputs.cache
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).sourcelink.json
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).dll
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\refint\Codice Fiscale Console (Testing).dll
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).pdb
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\Codice Fiscale Console (Testing).genruntimeconfig.cache
+C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\obj\Debug\net8.0\ref\Codice Fiscale Console (Testing).dll

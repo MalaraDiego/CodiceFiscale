@@ -8,10 +8,6 @@ namespace Codice_Fiscale_Console__Testing_
 {
     public class Storico
     {
-        private string _nome;
-        private string _cognome;
-        private string _sesso;
-        private string _dataNascita;
         public int id { get; set; }
         public int idUtente { get; set; }
         public string nome { get; set; }
