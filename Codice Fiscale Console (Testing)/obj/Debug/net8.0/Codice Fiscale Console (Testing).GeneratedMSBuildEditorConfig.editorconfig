@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Codice_Fiscale_Console__Testing_
-build_property.ProjectDir = C:\Users\GABRIELETRAVELLINI\Desktop\Repo\Codice Fiscale Console (Testing)\
+build_property.ProjectDir = C:\Users\GABRIELETRAVELLINI\Desktop\Codice Fiscale\Codice Fiscale Console (Testing)\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

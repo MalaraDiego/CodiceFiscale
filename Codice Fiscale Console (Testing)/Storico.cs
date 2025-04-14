@@ -17,5 +17,12 @@ namespace Codice_Fiscale_Console__Testing_
         public string luogo { get; set; }
         public string codiceLuogo { get; set; }
         public string cf { get; set; }
+
+        public override string ToString()
+        {
+            return $"{nome}";
+        }
     }
+
+
 }

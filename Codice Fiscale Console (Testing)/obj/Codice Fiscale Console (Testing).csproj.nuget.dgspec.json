@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Repo\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {}
+    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Codice Fiscale\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {}
   },
   "projects": {
-    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Repo\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {
+    "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Codice Fiscale\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Repo\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
+        "projectUniqueName": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Codice Fiscale\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
         "projectName": "Codice Fiscale Console (Testing)",
-        "projectPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Repo\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
+        "projectPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Codice Fiscale\\Codice Fiscale Console (Testing)\\Codice Fiscale Console (Testing).csproj",
         "packagesPath": "C:\\Users\\GABRIELETRAVELLINI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Repo\\Codice Fiscale Console (Testing)\\obj\\",
+        "outputPath": "C:\\Users\\GABRIELETRAVELLINI\\Desktop\\Codice Fiscale\\Codice Fiscale Console (Testing)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

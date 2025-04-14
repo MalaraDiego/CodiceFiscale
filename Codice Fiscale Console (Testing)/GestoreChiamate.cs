@@ -11,7 +11,7 @@ namespace Codice_Fiscale_Console__Testing_
     public static class GestoreChiamate
     {   //dati da aggiornare ogni volta che non funzionano le chiamate api
         //scadono dopo un giorno
-        static readonly string cookie = "__test=15102c6ee03c76d899ab37ee02afc133";
+        static readonly string cookie = "__test=f6ad03d2d6fbebac71c3e53d254032c5";
         static readonly string user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
         public static async Task<List<Comune>> getComuni()
         {
@@ -168,7 +168,7 @@ namespace Codice_Fiscale_Console__Testing_
                 string json = await response.Content.ReadAsStringAsync();
                 List<Storico> sc = JsonSerializer.Deserialize<List<Storico>>(json);
                 return sc;
-            }
+            }  
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
