@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\codice fiscale console (testing)\\nazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
@@ -131,20 +131,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GestoreChiamate.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\GestoreChiamate.cs",
               "RelativeDocumentMoniker": "GestoreChiamate.cs",
               "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\GestoreChiamate.cs",
               "RelativeToolTip": "GestoreChiamate.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAswJMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T17:33:37.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\Codice Fiscale Console (Testing)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

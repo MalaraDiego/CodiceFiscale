@@ -11,8 +11,8 @@ namespace Codice_Fiscale_Console__Testing_
     public static class GestoreChiamate
     {   //dati da aggiornare ogni volta che non funzionano le chiamate api
         //scadono dopo un giorno
-        static readonly string cookie = "__test=f6ad03d2d6fbebac71c3e53d254032c5";
-        static readonly string user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
+        static readonly string cookie = "__test=7ec7c0ab087cb92278bdbf0d96e1cba2";
+        static readonly string user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36";
         public static async Task<List<Comune>> getComuni()
         {
             string api = "http://codicefiscale.infy.uk/getCodiciCatastali.php";
@@ -152,7 +152,7 @@ namespace Codice_Fiscale_Console__Testing_
             }
         }
 
-        public static async Task<List<Storico>> getStorico(Utente u)
+        public static async Task<Storico> getStorico(Utente u)
         {
             string api = $"http://codicefiscale.infy.uk/getUtenteStorico.php?idUtente={u.id}";
             HttpClientHandler handler = new HttpClientHandler();
@@ -166,9 +166,9 @@ namespace Codice_Fiscale_Console__Testing_
                 response.EnsureSuccessStatusCode();
 
                 string json = await response.Content.ReadAsStringAsync();
-                List<Storico> sc = JsonSerializer.Deserialize<List<Storico>>(json);
+                Storico sc = JsonSerializer.Deserialize<Storico>(json);
                 return sc;
-            }  
+            }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);

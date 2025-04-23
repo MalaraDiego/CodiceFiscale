@@ -13,7 +13,7 @@ namespace Codice_Fiscale_Console__Testing_
         private string _cognome;
         private string _sesso;
         private string _dataNascita;
-        public string nome { get { return _nome; } set { if (string.IsNullOrEmpty(value) || value.Length < 3 || value.Length > 30) { throw new Exception("Nome non accettabile"); } else { _nome = value; } } }
+        public string nome { get { return _nome; } set { if (string.IsNullOrEmpty(value) || value.Length < 3 || value.Length > 30 ) { throw new Exception("Nome non accettabile"); } else { _nome = value; } } }
         public string cognome { get { return _cognome; } set { if (string.IsNullOrEmpty(value) || value.Length < 3 || value.Length > 30) { throw new Exception("Cognome non accettabile"); } else { _cognome = value; } } }
         public string sesso { 
             get

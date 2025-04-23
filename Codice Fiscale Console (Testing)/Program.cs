@@ -1,23 +1,20 @@
 ﻿using Codice_Fiscale_Console__Testing_;
 
+List<Comune> c = await GestoreChiamate.getComuni();
+int index = 0;
 
-//List<Comune> c = await GestoreChiamate.getComuni();
-//Console.WriteLine(c[1234]);
-
-try
+foreach (Comune comune in c)
 {
-    //Persona p = new Persona() { dataNascita = "2024-12-29",sesso = "M", } ;
-    //Console.WriteLine(p.dataNascita);
-    Utente u = new Utente() { id = 13};
-    List<Storico> s = await GestoreChiamate.getStorico(u);
-    foreach (Storico s1 in s)
+    if (comune.comune == "Bergamo")
     {
-        Console.WriteLine(s1);
+        index = c.IndexOf(comune);
     }
-    
-
-}catch(Exception e)
-{
-    Console.WriteLine(e.Message);
 }
- 
+
+
+
+    Persona p = new Persona() { dataNascita = "2007-03-16",sesso = "M",nome = "Gàbriele", cognome = "Travellìni"};
+    CalcolaCodiceFiscale.CalcolaCodice(ref p, c[index], null);
+    Console.WriteLine("Ciao");
+
+
