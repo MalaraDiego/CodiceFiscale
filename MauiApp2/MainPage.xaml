@@ -1,0 +1,69 @@
+﻿<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiApp2.MainPage"
+    BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="CenterAndExpand">
+
+            <Frame 
+                BackgroundColor="{DynamicResource ContainerBackgroundColor}"
+                CornerRadius="20"
+                Padding="20"
+                HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Label 
+                        Text="Log in" 
+                        FontSize="32" 
+                        HorizontalOptions="Center" 
+                        TextColor="{DynamicResource PrimaryTextColor}" />
+
+                    <!-- UserName -->
+                    <Entry 
+                        x:Name="UserEntry"
+                        Placeholder="Inserisci il tuo UserName" 
+                        TextColor="{DynamicResource PrimaryTextColor}"
+                        PlaceholderColor="Gray"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}" />
+
+                    <!-- Password -->
+                    <Entry 
+                        x:Name="PasswordEntry"
+                        Placeholder="Inserisci la tua Password"
+                        IsPassword="True"
+                        TextColor="{DynamicResource PrimaryTextColor}"
+                        PlaceholderColor="Gray"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}" />
+
+                    <!-- Login Button -->
+                    <Button 
+                        Text="Login"
+                        BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                        TextColor="{DynamicResource ButtonTextColor}"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        Clicked="OnLoginClicked" />
+
+                    <Button 
+                        Text="Prosegui senza login"
+                        BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                        TextColor="{DynamicResource ButtonTextColor}"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        Clicked="WithoutLoginClicked" />
+                    <Label x:Name="ErrorLbl"
+                           TextColor="Red"
+                           ></Label>
+                </VerticalStackLayout>
+
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

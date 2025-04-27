@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:gestorechiamate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\storico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:storico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|c:\\users\\utente\\onedrive\\desktop\\codice fiscals\\mauiapp2\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A9C40-89C2-4133-BB27-5BBE30D10A0E}|MauiApp2.csproj|solutionrelative:utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Storico.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\Storico.cs",
+              "RelativeDocumentMoniker": "Storico.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\Storico.cs",
+              "RelativeToolTip": "Storico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:20:16.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CodiceFiscale.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\CodiceFiscale.cs",
+              "RelativeDocumentMoniker": "CodiceFiscale.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\CodiceFiscale.cs",
+              "RelativeToolTip": "CodiceFiscale.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:26:01.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalcolaCodiceFiscale.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\CalcolaCodiceFiscale.cs",
+              "RelativeDocumentMoniker": "CalcolaCodiceFiscale.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\CalcolaCodiceFiscale.cs",
+              "RelativeToolTip": "CalcolaCodiceFiscale.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:17:44.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestoreChiamate.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\GestoreChiamate.cs",
+              "RelativeDocumentMoniker": "GestoreChiamate.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\GestoreChiamate.cs",
+              "RelativeToolTip": "GestoreChiamate.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAcwJwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:31:06.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "NewPage1.xaml",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\NewPage1.xaml",
+              "RelativeToolTip": "NewPage1.xaml",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAgwNAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-27T19:24:58.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "NewPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\NewPage1.xaml.cs",
+              "RelativeToolTip": "NewPage1.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:47:28.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T13:52:11.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\Utente.cs",
+              "RelativeDocumentMoniker": "Utente.cs",
+              "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\Codice Fiscals\\MauiApp2\\Utente.cs",
+              "RelativeToolTip": "Utente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:29:46.077Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiApp2.NewPage1"
+    BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="CenterAndExpand">
+
+            <Frame 
+                BackgroundColor="{DynamicResource ContainerBackgroundColor}"
+                CornerRadius="20"
+                Padding="20"
+                HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Label 
+                        Text="Calcola Codice Fiscale" 
+                        FontSize="32" 
+                        HorizontalOptions="Center" 
+                        TextColor="{DynamicResource PrimaryTextColor}" />
+                    <Label 
+                        x:Name="lblLogin"
+                        IsVisible="False"
+                        Text="⚠️Attenzione non si è effetuato il login, i codici fiscali calcolati non si potranno salvare" 
+                        FontSize="16" 
+                        TextColor="Red"
+                        HorizontalOptions="Center" ></Label>
+                        <Label 
+                        x:Name="lblfailogin"
+                        IsVisible="False"
+                        FontSize="16" 
+                        HorizontalOptions="Center">     
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Procedere comunque o effettuare il " TextColor="Red" />
+                                <Span Text="login" TextColor="Red" TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnLoginTapped"/>
+                                    </Span.GestureRecognizers>
+                                </Span>
+                                <Span Text="?" TextColor="Red" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                        </Label>
+                    <!-- Nome -->
+                    <Entry 
+                        x:Name="NomeEntry"
+                        Placeholder="Inserisci il nome della persona di cui vuoi calcolare il codice fiscale" 
+                        TextColor="{DynamicResource PrimaryTextColor}"
+                        PlaceholderColor="Gray"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}" />
+
+                    <!-- Cognome -->
+                    <Entry 
+                        x:Name="CognomeEntry"
+                        Placeholder="Inserisci il cognome della persona di cui vuoi calcolare il codice fiscale"
+                        TextColor="{DynamicResource PrimaryTextColor}"
+                        PlaceholderColor="Gray"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}" />
+
+                    <!-- RadioButton -->
+                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                        <Label 
+                            Text="Nato/a in Italia?" 
+                            VerticalOptions="Center"
+                            TextColor="{DynamicResource PrimaryTextColor}" />
+
+                         <CheckBox 
+                            x:Name="OpzioniAvanzateCheckBox"
+                            VerticalOptions="Center"
+                            Color="{DynamicResource PrimaryTextColor}"
+                            CheckedChanged="OnCheckBoxCheckedChanged" />
+                    </HorizontalStackLayout>
+
+                    
+                    <VerticalStackLayout Spacing="15">
+
+                        <!-- Primo gruppo Picker + Entry -->
+
+                        <Entry 
+                        x:Name="Entry1"
+                        TextChanged="EntryChanged"
+                        Placeholder="Cerca il comune"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                        TextColor="{DynamicResource PrimaryTextColor}" 
+                        IsVisible="False"/>
+                        <Picker 
+                         
+                        x:Name="Picker1"
+                        Title="Seleziona un comune"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                        TextColor="{DynamicResource PrimaryTextColor}"
+                        IsVisible="False" />
+
+
+
+                        <!-- Secondo gruppo Picker + Entry -->
+
+
+                        <Entry 
+                            x:Name="Entry2"
+                            TextChanged="EntryChanged"
+                            Placeholder="Cerca la nazione"
+                            BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                            TextColor="{DynamicResource PrimaryTextColor}" 
+                            IsVisible="False"/>
+                        <Picker 
+                            
+                            x:Name="Picker2"
+                            Title="Seleziona una nazione"
+                            BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                            TextColor="{DynamicResource PrimaryTextColor}"
+                            IsVisible="False" />    
+
+                    </VerticalStackLayout>
+
+                    <!-- DatePicker -->
+                    <DatePicker 
+                        x:Name="DataNascitaPicker"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                        TextColor="{DynamicResource PrimaryTextColor}" 
+                        
+                        />
+
+                    <!-- Picker Sesso -->
+                    <Picker 
+                        x:Name="SessoPicker"
+                        Title="Seleziona Sesso"
+                        BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                        TextColor="{DynamicResource PrimaryTextColor}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>M</x:String>
+                                <x:String>F</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Button
+                        Text="Calcola Codice"
+                        BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                        TextColor="{DynamicResource ButtonTextColor}"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        Clicked="Button_Clicked" 
+                        />
+                    <Label x:Name="ErrorLbl"
+                        TextColor="Red"
+                        ></Label>
+                    <ListView x:Name="myListView"
+                        ItemsSource="{Binding Persone}"
+                            ItemTapped="OnPersonaTapped"
+                                SeparatorVisibility="Default">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Label FontAttributes="Italic" FontSize="14">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding nome}" />
+                                                <Span Text=" " />
+                                                <Span Text="{Binding cognome}" />
+                                                <Span Text=" – " />
+                                                <Span Text="{Binding cf.Valore}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </ViewCell>
+                                
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <Button
+                        Text="Salva Codice"
+                        x:Name="salvaStorico"
+                        BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                        TextColor="{DynamicResource ButtonTextColor}"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        Clicked="Button_Clicked_1" 
+                        />
+
+                    <ListView x:Name="myListView2"
+    ItemsSource="{Binding Persone}"
+        ItemTapped="OnPersonaTapped"
+            SeparatorVisibility="Default">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Label FontAttributes="Italic" FontSize="14">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding nome}" />
+                                                <Span Text=" " />
+                                                <Span Text="{Binding cognome}" />
+                                                <Span Text=" – " />
+                                                <Span Text="{Binding cf.Valore}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </ViewCell>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </VerticalStackLayout>
+
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\OneDrive\\Desktop\\CF dec\\Codice Fiscale Console (Testing)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\cf dec\\codice fiscale console (testing)\\calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\cf dec\\codice fiscale console (testing)\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\cf dec\\codice fiscale console (testing)\\calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|solutionrelative:calcolacodicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F2D5D00-155E-452E-B5B6-229D882AB672}|Codice Fiscale Console (Testing).csproj|c:\\users\\utente\\onedrive\\desktop\\cf dec\\codice fiscale console (testing)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -59,8 +59,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T19:01:00.141Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,29 +91,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CodiceFiscale.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\CF dec\\Codice Fiscale Console (Testing)\\CodiceFiscale.cs",
               "RelativeDocumentMoniker": "CodiceFiscale.cs",
               "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\CF dec\\Codice Fiscale Console (Testing)\\CodiceFiscale.cs",
               "RelativeToolTip": "CodiceFiscale.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAYwKcAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T08:21:12.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CalcolaCodiceFiscale.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\OneDrive\\Desktop\\CF dec\\Codice Fiscale Console (Testing)\\CalcolaCodiceFiscale.cs",
               "RelativeDocumentMoniker": "CalcolaCodiceFiscale.cs",
               "ToolTip": "C:\\Users\\Utente\\OneDrive\\Desktop\\CF dec\\Codice Fiscale Console (Testing)\\CalcolaCodiceFiscale.cs",
               "RelativeToolTip": "CalcolaCodiceFiscale.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDMAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:07:47.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:07:47.418Z"
             },
             {
               "$type": "Document",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "Storico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:44:43.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:44:43.074Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "RelativeToolTip": "Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:29:28.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:29:28.095Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "Utente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:07:49.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:07:49.792Z"
             },
             {
               "$type": "Document",
@@ -165,8 +160,7 @@
               "RelativeToolTip": "Nazione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:59:13.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:59:13.911Z"
             },
             {
               "$type": "Document",
@@ -178,8 +172,7 @@
               "RelativeToolTip": "GestoreChiamate.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAmwKgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:33:37.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:33:37.759Z"
             },
             {
               "$type": "Document",
@@ -191,8 +184,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwCkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:28:10.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:28:10.396Z"
             }
           ]
         },
